@@ -94,6 +94,7 @@ The Battalion Management System is a full-stack web application designed to stre
 
 
 📖 Usage
+
 Status Types
 Status	Hebrew	Description
 Field	שטח	Active in the field
@@ -101,6 +102,8 @@ Base	בסיס	At military base
 Home	בית	On home leave
 Injured	פצוע	Injured/wounded
 Absent	נפקד	Absent without leave
+
+
 🔒 Security
 Base44 authentication system
 Row-Level Security (RLS) enforced
