@@ -9,7 +9,7 @@
 
 **A comprehensive military battalion management system for tracking soldiers, missions, daily reports, and manpower analytics.**
 
-[Features](#-features) • [Screenshots](#-screenshots) • [Architecture](#-architecture) • [Installation](#-installation) • [Usage](#-usage)
+[Features](#-features) • [Architecture](#-architecture)  • [Usage](#-usage)
 
 </div>
 
@@ -75,32 +75,6 @@ The Battalion Management System is a full-stack web application designed to stre
 
 ---
 
-## 📸 Screenshots
-
-### Dashboard Overview
-![Dashboard](./screenshots/dashboard.png)
-*Main dashboard showing battalion status, trends, and key metrics*
-
-### Soldier Management
-![Soldiers](./screenshots/soldiers.png)
-*Soldier list with search, filters, and pagination*
-
-### Mission Management
-![Missions](./screenshots/missions.png)
-*Mission creation and management with location assignments*
-
-### Daily Status Report (Report 1)
-![Daily Status](./screenshots/daily-status.png)
-*Quick status grid for efficient daily reporting*
-
-### Manpower Dashboard
-![Manpower](./screenshots/manpower.png)
-*Personnel analytics with role and company distribution*
-
-### User Permissions
-![Permissions](./screenshots/permissions.png)
-*Role-based access control management*
----
 
 ## 🏗️ Architecture
 
@@ -119,16 +93,8 @@ The Battalion Management System is a full-stack web application designed to stre
 ├── entities/ # Data models (JSON schemas) │ ├── Soldier.json │ ├── Mission.json │ ├── DailyStatus.json │ ├── Location.json │ └── ... │ ├── pages/ # Main application pages │ ├── Dashboard.js │ ├── Soldiers.js │ ├── Missions.js │ └── ... │ ├── components/ # Reusable components │ ├── soldiers/ │ ├── missions/ │ ├── status/ │ └── reports/ │ ├── functions/ # Backend functions │ ├── filterSoldiers.js │ └── sendAlert.js │ └── Layout.js
 
 
-### Data Model
-
-```mermaid
-erDiagram
-    Soldier ||--o{ DailyStatus : has
-    Soldier ||--o{ InjuredLog : has
-    Mission ||--o{ Location : contains
-    Mission ||--o{ DailyStatus : tracks
-
 📖 Usage
+
 Status Types
 Status	Hebrew	Description
 Field	שטח	Active in the field
@@ -136,6 +102,8 @@ Base	בסיס	At military base
 Home	בית	On home leave
 Injured	פצוע	Injured/wounded
 Absent	נפקד	Absent without leave
+
+
 🔒 Security
 Base44 authentication system
 Row-Level Security (RLS) enforced
