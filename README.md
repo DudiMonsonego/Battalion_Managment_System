@@ -9,7 +9,7 @@
 
 **A comprehensive military battalion management system for tracking soldiers, missions, daily reports, and manpower analytics.**
 
-[Features](#-features) • [Screenshots](#-screenshots) • [Architecture](#-architecture) • [Installation](#-installation) • [Usage](#-usage)
+[Features](#-features) •= [Architecture](#-architecture) • [Installation](#-installation) • [Usage](#-usage)
 
 </div>
 
@@ -75,32 +75,6 @@ The Battalion Management System is a full-stack web application designed to stre
 
 ---
 
-## 📸 Screenshots
-
-### Dashboard Overview
-![Dashboard](./screenshots/dashboard.png)
-*Main dashboard showing battalion status, trends, and key metrics*
-
-### Soldier Management
-![Soldiers](./screenshots/soldiers.png)
-*Soldier list with search, filters, and pagination*
-
-### Mission Management
-![Missions](./screenshots/missions.png)
-*Mission creation and management with location assignments*
-
-### Daily Status Report (Report 1)
-![Daily Status](./screenshots/daily-status.png)
-*Quick status grid for efficient daily reporting*
-
-### Manpower Dashboard
-![Manpower](./screenshots/manpower.png)
-*Personnel analytics with role and company distribution*
-
-### User Permissions
-![Permissions](./screenshots/permissions.png)
-*Role-based access control management*
----
 
 ## 🏗️ Architecture
 
