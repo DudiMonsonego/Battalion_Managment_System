@@ -93,15 +93,6 @@ The Battalion Management System is a full-stack web application designed to stre
 ├── entities/ # Data models (JSON schemas) │ ├── Soldier.json │ ├── Mission.json │ ├── DailyStatus.json │ ├── Location.json │ └── ... │ ├── pages/ # Main application pages │ ├── Dashboard.js │ ├── Soldiers.js │ ├── Missions.js │ └── ... │ ├── components/ # Reusable components │ ├── soldiers/ │ ├── missions/ │ ├── status/ │ └── reports/ │ ├── functions/ # Backend functions │ ├── filterSoldiers.js │ └── sendAlert.js │ └── Layout.js
 
 
-### Data Model
-
-```mermaid
-erDiagram
-    Soldier ||--o{ DailyStatus : has
-    Soldier ||--o{ InjuredLog : has
-    Mission ||--o{ Location : contains
-    Mission ||--o{ DailyStatus : tracks
-
 📖 Usage
 Status Types
 Status	Hebrew	Description
