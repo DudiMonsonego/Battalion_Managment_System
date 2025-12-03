@@ -9,7 +9,7 @@
 
 **A comprehensive military battalion management system for tracking soldiers, missions, daily reports, and manpower analytics.**
 
-[Features](#-features) • [Architecture](#-architecture) • [Installation](#-installation) • [Usage](#-usage)
+[Features](#-features) • [Architecture](#-architecture)  • [Usage](#-usage)
 
 </div>
 
