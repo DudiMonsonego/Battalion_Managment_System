@@ -92,7 +92,38 @@ The Battalion Management System is a full-stack web application designed to stre
 
 ├── entities/ # Data models (JSON schemas) │ ├── Soldier.json │ ├── Mission.json │ ├── DailyStatus.json │ ├── Location.json │ └── ... │ ├── pages/ # Main application pages │ ├── Dashboard.js │ ├── Soldiers.js │ ├── Missions.js │ └── ... │ ├── components/ # Reusable components │ ├── soldiers/ │ ├── missions/ │ ├── status/ │ └── reports/ │ ├── functions/ # Backend functions │ ├── filterSoldiers.js │ └── sendAlert.js │ └── Layout.js
 
-### ScreenShots
+### Visuals
+---
+
+## 📸 System Preview
+
+<div align="center">
+  <p><strong>Main Dashboard & Manpower Analytics</strong></p>
+  <img src="ScreenShots/screenshot_1.png" width="85% shadow="true" />
+  
+  <br><br>
+  
+  <table style="width:100%">
+    <tr>
+      <td width="50%" align="center">
+        <p><strong>Soldier Management</strong></p>
+        <img src="ScreenShots/screenshot_2.png" width="100%">
+      </td>
+      <td width="50%" align="center">
+        <p><strong>Mission Tracking</strong></p>
+        <img src="ScreenShots/screenshot_3.png" width="100%">
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <p><strong>Daily Status Reporting (Report 1)</strong></p>
+        <img src="ScreenShots/screenshot_4.png" width="70%">
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
 
 
 🔒 Security
